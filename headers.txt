@@ -1,0 +1,19 @@
+describe each key value pair in the HTTP header in both request and response
+and check it in with the project to GitHub (e.g. what is the content-type and
+what does it mean?)
+
+The request header, "PostmanRuntime/7.26.10", This is to be used in an HTTP request to provide information about the request context
+The accept header indicates what formats are preferred for the response
+The token indicates that I obtained approval when the connection was made.
+Host is the domain that serves the API, in this case Google API's
+The Accept-Encoding tells the server what it supports
+And the Connection determines whether or not to drop the connection or how long to keep it open.
+
+
+RESPONSES
+-"The Content-Type entity header is used to indicate the media type of the resource"
+-The Vary HTTP response header determines how to match future request headers to decide whether
+a cached response can be used rather than requesting a fresh one from the origin server
+-The Content-Encoding entity header is used to compress the media-type
+-Cache-Control: private. Indicates that all or part of the response message is intended for a single user and MUST NOT be cached by a shared cache
+-With chunked transfer encoding (CTE), the encoder sends data to the player in a series of chunks instead of waiting until the complete segment is available.

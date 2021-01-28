@@ -16,7 +16,7 @@ module.exports = async (phrase) => {
             headers: results.headers,
             requestHeader: results.config.headers
     }
-    return customObject;
+    return JSON.stringify(customObject);
 }
 
 /*  console.log(results.data);
